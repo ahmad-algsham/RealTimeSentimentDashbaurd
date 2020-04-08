@@ -10,14 +10,14 @@ file inside this project by the name of kays_twitter to grant your access to the
 
 There are some libraries which are needed and you have to install them before you run the code, otherwise you face to problem.
 
-1.gensim == 3.8.1
-2.nltk == 3.4.5
-3.pandas == 1.0.3
-4.tweepy == 3.8.0
-5.textblob-ar-mk == 0.0.2
-6.wordcloud == 1.6.0
-7.arabic-reshaper == 2.0.15
-8.python-bidi == 0.4.2
+1. gensim == 3.8.1
+2. nltk == 3.4.5
+3. pandas == 1.0.3
+4. tweepy == 3.8.0
+5. textblob-ar-mk == 0.0.2
+6. wordcloud == 1.6.0
+7. arabic-reshaper == 2.0.15
+8. python-bidi == 0.4.2
 
 
 To install these libraries samply you have to opent the file by the name of "requirements" and run it using cmd or pycharm it will
