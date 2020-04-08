@@ -7,13 +7,17 @@ file inside this project by the name of kays_twitter to grant your access to the
 
 ## Requirements: 
 There are some libraries which are needed and you have to install them before you run the code, otherwise you face to problem.
-
 1 - gensim
 2 - nltk
 3 - pandas
 4 - tweepy
 5 - textblob_ar
+The `requirements.txt` file should list all Python libraries that your notebooks
+depend on, and they will be installed using:
 
+```
+pip install -r requirements.txt
+```
 
 ## Usage:
 Open the folder uisng Pycharm, then go to main_streamer.py and run this file in case if there are all libraries available it must work fine. After runing of the file is finished you see there are many CSV files some of them by the name of data_sa refers to the tweets with sentiment analysis. Furthermore there ary many other CSV files by the name of Trends_SA which refers to the top trends in each country.
