@@ -6,10 +6,6 @@ You will need to create a free acount on twitter developer acount. After that yo
 file inside this project by the name of kays_twitter to grant your access to the twitter for collecting tweets.
 
 
-
-![tmp_1586364116771](https://user-images.githubusercontent.com/62034109/78810596-36a30300-79d1-11ea-836b-67d32583ddd2.jpg)
-
-
 ## Requirements:
 
 There are some libraries which are needed and you have to install them before you run the code, otherwise you face to problem.
