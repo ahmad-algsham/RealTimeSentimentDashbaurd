@@ -13,11 +13,11 @@ There are some libraries which are needed and you have to install them before yo
 4 - tweepy
 5 - textblob_ar
 
-To install these libraries samply you have to opent the file by the name of "requirements.txt" and run it using pycharm it will
+To install these libraries samply you have to opent the file by the name of "requirements" and run it using cmd or pycharm it will
 install all those requirements.
 
 ```
-pip install -r requirements.txt
+pip install -r requirements
 ```
 
 ## Usage:
