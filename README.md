@@ -12,8 +12,9 @@ There are some libraries which are needed and you have to install them before yo
 3 - pandas
 4 - tweepy
 5 - textblob_ar
-The `requirements.txt` file should list all Python libraries that your notebooks
-depend on, and they will be installed using:
+
+To install these libraries samply you have to opent the file by the name of "requirements.txt" and run it using pycharm it will
+install all those requirements.
 
 ```
 pip install -r requirements.txt
