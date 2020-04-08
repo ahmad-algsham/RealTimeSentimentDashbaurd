@@ -1,0 +1,8 @@
+tweepy == 3.8.0
+pandas == 1.0.3
+textblob-ar-mk == 0.0.2
+gensim == 3.8.1
+nltk == 3.4.5
+wordcloud == 1.6.0
+arabic-reshaper == 2.0.15
+python-bidi == 0.4.2
