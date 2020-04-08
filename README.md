@@ -8,7 +8,7 @@ file inside this project by the name of kays_twitter to grant your access to the
 
 ## Requirements:
 
-There are some libraries which are needed and you have to install them before you run the code, otherwise you face to problem*separate paragraph*.
+There are some libraries which are needed and you have to install them before you run the code, otherwise you face to problem *separate paragraph* .
 
 1. gensim == 3.8.1
 2. nltk == 3.4.5
