@@ -50,4 +50,10 @@ def marge():
                 "Tweets_QA", "sentiment_QA", "Tweets_SA", "sentiment_SA"]
 
     margeCSV.columns = colnames # set column name
-    margeCSV.to_csv('marged.csv', encoding='utf-16', sep='\t', index=False)  # save all data in one file
+    margeCSV.to_excel('marged.xlsx', index=False)
+
+
+    # margeCSV.to_csv('marged.csv', encoding='utf-16', sep='\t', index=False)  # save all data in one file
+    # writer = pd.ExcelWriter('marged.xlsx'  ,index=None)
+    # margeCSV.to_excel(writer)
+    # writer.save()

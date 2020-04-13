@@ -19,13 +19,13 @@ def get_data_to_frame(result_location, file_name_trend):
     for trend in result_location[0]["trends"][:5]:
         print(i, end='\r')
         trend_df.loc[i, file_name_trend] = trend['name']
-        trend_df.to_csv('../data/{}.csv'.format(file_name_trend), encoding='utf-16', sep='\t', index=False)
+        trend_df.to_csv('../Trend/{}.csv'.format(file_name_trend), encoding='utf-16', index=False)
         i += 1
         if i == 5:
             break
         else:
             pass
-
+# C:\Users\ahmad\AppData\Local\Temp\TableauTemp\0tcmqw81mhoih41dyh6e902a1bz3\Sheets1\Data\1fpb5xe1wgc69211tldof0amtndy
     data_name = trend_df.iloc[0]
     print("TOP", data_name)   # print name the trend
     datalist = trend_df[file_name_trend].to_list()
@@ -45,8 +45,11 @@ def get_data_to_frame(result_location, file_name_trend):
                 z = len(df.index)  # count rows after drop duplicates
                 i = i - (j - z)
 
+            if 0 == i % 30:
+                print(i)
+
             i += 1
-            if i == 3000:   # to avoid rate limit we set at 360 where is (280 * 360 = 100,800 character)
+            if i == 100:   # to avoid rate limit we set at 360 where is (280 * 360 = 100,800 character)
                 break
             else:
                 pass
