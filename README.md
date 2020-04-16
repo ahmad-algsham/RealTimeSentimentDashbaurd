@@ -17,7 +17,8 @@ There are some libraries which are needed and you have to install them before yo
 4. tweepy == 3.8.0
 5. textblob-ar-mk == 0.0.2
 
-for explore the data you need this library 
+for explore the data you need this library also 
+
 6. wordcloud == 1.6.0
 7. arabic-reshaper == 2.0.15
 8. python-bidi == 0.4.2
