@@ -6,7 +6,6 @@
 
 You will need to create a free acount on twitter developer acount. After that you need to create an application and recieve the key's. Then copy that access token key's to the python file inside this project by the name of `kays_twitter` to grant your access to the twitter for collecting tweets.
 
-To start extract data run the `main_streamer.py` 
 
 ## Requirements:
 
@@ -17,6 +16,8 @@ There are some libraries which are needed and you have to install them before yo
 3. pandas == 1.0.3
 4. tweepy == 3.8.0
 5. textblob-ar-mk == 0.0.2
+
+for explore the data you need this library 
 6. wordcloud == 1.6.0
 7. arabic-reshaper == 2.0.15
 8. python-bidi == 0.4.2
@@ -30,7 +31,7 @@ pip install -r requirements
 
 ## Usage:
 
-Open the folder projectIT499, then to main_streamer.py run this file in case if there are all libraries available it must work fine. After runing of the file is finished you see there are many CSV files some of them by the name of data_SA refers to the tweets with sentiment analysis. Furthermore there ary many other CSV files by the name of Trends_SA which refers to the top five trends in each country.
+Open the folder projectIT499, then to `main_streamer.py` run this file in case if there are all libraries available it must work fine. After runing of the file is finished you see there are many CSV files some of them by the name of data_SA refers to the tweets with sentiment analysis. Furthermore there ary many other CSV files by the name of Trends_SA which refers to the top five trends in each country.
 Note: The last two litters after underscore refers to the name of each country.
 
 
