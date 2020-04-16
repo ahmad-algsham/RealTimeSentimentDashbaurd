@@ -6,6 +6,8 @@
 
 You will need to create a free acount on twitter developer acount. After that you need to create an application and recieve the key's. Then copy that access token key's to the python file inside this project by the name of `kays_twitter` to grant your access to the twitter for collecting tweets.
 
+To start extract data run the `main_streamer.py` 
+
 ## Requirements:
 
 There are some libraries which are needed and you have to install them before you run the code, otherwise you face to problem.
